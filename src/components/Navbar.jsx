@@ -1,7 +1,6 @@
 import React from "react"
-import NavItem from "./NavItem"
 import logo from "../assets/logo.png"
-import "./nav.css"
+
 
 function Navbar() {
     return (<>
@@ -11,7 +10,12 @@ function Navbar() {
                     <img className="logo" alt="logo" src={logo}></img>
                 </a>
                 <ul>
-                    <NavItem to="/"></NavItem>
+                    <li className="nav-item">
+                    <a href="/" className="nav-link">
+                        
+                        <span className="link-text"></span>
+                    </a>
+                    </li>
                 </ul>
             </nav>
             
