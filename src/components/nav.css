@@ -1,0 +1,17 @@
+:root {
+    font-size: 16px;
+    font-family: 'Open Sans';
+    --text-primary: #BCBAB8;
+    --text-secondary: #F9F9F9;
+    --bg-primary: #625757;
+    --bg-secondary: #9D8F8F;
+}
+
+main {
+    margin-left: 5rem;
+    padding: 1rem;
+}
+
+.navbar {
+
+}
