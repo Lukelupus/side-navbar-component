@@ -1,6 +1,10 @@
 import React from "react"
 import brand from "../assets/logo.png"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import HomeIcon from '@mui/icons-material/Home';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import SettingsIcon from '@mui/icons-material/Settings';
+import MenuBookIcon from '@mui/icons-material/MenuBook';
+
 
 
 
@@ -14,7 +18,25 @@ function Navbar() {
                 <ul>
                     <li className="nav-item">
                     <a href="/" className="nav-link">
-                    <FontAwesomeIcon icon="fa-solid fa-coffee" size="xs" />
+                        <HomeIcon className="icon" />
+                        <span className="link-text"></span>
+                    </a>
+                    </li>
+                    <li className="nav-item">
+                    <a href="/" className="nav-link">
+                        <AccountCircleIcon className="icon"/>
+                        <span className="link-text"></span>
+                    </a>
+                    </li>
+                    <li className="nav-item">
+                    <a href="/" className="nav-link">
+                        <MenuBookIcon className="icon" />
+                        <span className="link-text"></span>
+                    </a>
+                    </li>
+                    <li className="nav-item">
+                    <a href="/" className="nav-link">
+                        <SettingsIcon className="icon" />
                         <span className="link-text"></span>
                     </a>
                     </li>
